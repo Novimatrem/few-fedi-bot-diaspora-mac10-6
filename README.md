@@ -9,3 +9,5 @@ Posts once every 4 hours, to ‘All Aspects’ (so the posts are opt-in, by you 
 To spread pride and awareness, and for funnies.
 
 Hosted at https://iviv.hu/people/7e77d020b7aa013bca9e723c915ba918 AKA futaeveryword_bot@iviv.hu on diaspora*.
+
+You MOST LIKELY do not want to run this yourself.
