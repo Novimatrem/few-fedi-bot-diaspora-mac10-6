@@ -29,7 +29,7 @@ tell application "TenSixFox"
 		key code 51 # backspace
 		delay 0.1 #Start doing the text below this
 		# Randomly pull a word from that text file next to script, and use it in the next bit
-		set thisOne to {read POSIX file "/Users/novi/Documents/few-bot-diaspora-mac10-6/randword.txt" as class utf8}
+		set thisOne to {read POSIX file "/Users/novi/Documents/few-bot-diaspora-mac10-6/randword.txt"}
 		log "thisOne"
 		#activate
 		#display dialog thisOne
