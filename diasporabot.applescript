@@ -56,6 +56,7 @@ tell application "TenSixFox"
 		delay 0.1
 		key code 36 # enter on POST button
 		delay 20
+		delay 20
 		# now we have to get back to the posting UI, which is tab tab tab tab enter
 		delay 0.1
 		key code 48 # tab
