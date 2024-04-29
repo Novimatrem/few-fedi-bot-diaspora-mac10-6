@@ -15,9 +15,7 @@ while true
 do
 sleep 1
 
-echo "Loop restarted."
-
-echo "Time to run the bot again!"
+echo "Loop restarted. Time to run the bot again!"
 sleep 2s
 osascript diasporabot.scpt
 sleep 2s
