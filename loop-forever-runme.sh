@@ -11,6 +11,13 @@
 # (it's set by a cookie so you only have to make it use mobile once, if the posting box shows up you good)
 #
 
+# pcheck
+clear
+echo "Dict last updated time: $(stat -f "%Sm" -t "%c" "/usr/share/dict/words")"
+echo "OS install time:        Sun Nov 27 14:15:24 2022"
+echo ""
+echo "If these match, you're good."
+echo ""
 while true
 do
 sleep 1
