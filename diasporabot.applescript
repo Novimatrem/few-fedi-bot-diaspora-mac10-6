@@ -18,12 +18,15 @@ tell application "TenSixFox"
 		delay 0.5
 		delay 20
 		delay 5
+		delay 10
 		key code 96
 		delay 5
+		delay 10
 		key code 15 using {command down} # refresh (command+R)
 		delay 5
 		delay 20
 		# clear what may be already in the box if the internet dropped the last time we tried to post
+		delay 10
 		key code 0 using {command down} # select all (command+A)
 		delay 0.1
 		key code 51 # backspace
@@ -57,6 +60,7 @@ tell application "TenSixFox"
 		key code 36 # enter on POST button
 		delay 20
 		delay 20
+		delay 10
 		# now we have to get back to the posting UI, which is tab tab tab tab enter
 		delay 0.1
 		key code 48 # tab
@@ -75,10 +79,13 @@ tell application "TenSixFox"
 		delay 0.5
 		delay 20
 		delay 5
+		delay 10
 		key code 96
 		delay 5
+		delay 10
 		key code 15 using {command down} # refresh (command+R)
 		delay 5
 		delay 20
+		delay 10
 	end tell
 end tell
