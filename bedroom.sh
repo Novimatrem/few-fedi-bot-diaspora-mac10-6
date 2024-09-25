@@ -31,6 +31,7 @@ for run in {1..100}; do sleep 0s && osascript -e 'tell application "System Event
 sleep 2s
 done
 
+read -rsp "Rebrighten now? Enter is yes, Ctrl-C for no."
 
 echo "we brighten fully in 15 seconds, CTRL C NOW IF YOU LIKE THIS BRIGHTNESS"
 
